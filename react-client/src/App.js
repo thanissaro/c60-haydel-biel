@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const Index = () => <h2>Home</h2>;
 const About = () => <h2>About</h2>;
 const Users = () => <h2>Users</h2>;
+const Team = () => <h2>Team</h2>;
 
 const AppRouter = () => (
   <Router>
@@ -18,6 +19,9 @@ const AppRouter = () => (
           </li>
           <li>
             <Link to="/users/">Users</Link>
+          </li>
+          <li>
+            <Link to="/team/">Team</Link>
           </li>
         </ul>
       </nav>
