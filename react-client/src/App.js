@@ -5,6 +5,7 @@ const Index = () => <h2>Home</h2>;
 const About = () => <h2>About</h2>;
 const Users = () => <h2>Users</h2>;
 const Team = () => <h2>Team</h2>;
+const Contact = () => <h2>Contact</h2>
 
 const AppRouter = () => (
   <Router>
@@ -23,6 +24,9 @@ const AppRouter = () => (
           <li>
             <Link to="/team/">Team</Link>
           </li>
+          <li>
+            <Link to="/contact/">Contact</Link>
+          </li>
         </ul>
       </nav>
 
@@ -30,6 +34,7 @@ const AppRouter = () => (
       <Route path="/about/" component={About} />
       <Route path="/users/" component={Users} />
       <Route path="/team/" component={Team} />
+      <Route path="/contact/" component={Contact} />
     </div>
   </Router>
 );
