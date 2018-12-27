@@ -6,6 +6,7 @@ const About = () => <h2>About</h2>;
 const Users = () => <h2>Users</h2>;
 const Team = () => <h2>Team</h2>;
 const Contact = () => <h2>Contact</h2>
+const Login = () => <h2>Login</h2>
 
 const AppRouter = () => (
   <Router>
@@ -27,6 +28,9 @@ const AppRouter = () => (
           <li>
             <Link to="/contact/">Contact</Link>
           </li>
+          <li>
+            <Link to="/login/">Login</Link>
+          </li>
         </ul>
       </nav>
 
@@ -35,6 +39,7 @@ const AppRouter = () => (
       <Route path="/users/" component={Users} />
       <Route path="/team/" component={Team} />
       <Route path="/contact/" component={Contact} />
+      <Route path="/login/" component={Login} />
     </div>
   </Router>
 );
