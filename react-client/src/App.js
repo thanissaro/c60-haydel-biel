@@ -6,11 +6,12 @@ const About = () => <h2>About</h2>;
 const Users = () => <h2>Users</h2>;
 const Team = () => <h2>Team</h2>;
 const Chat = () => <h2>Chat</h2>;
-const Contact = () => <h2>Contac</h2>;
+const Contact = () => <h2>Contact</h2>;
 
 const AppRouter = () => (
   <Router>
     <div>
+      <h1>H&B</h1>
       <nav>
         <ul>
           <li>
